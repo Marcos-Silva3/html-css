@@ -9,16 +9,18 @@ body {
 }
 
 main {
-    width: 95%;
-    height: 98.9vh;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: auto;
+    height: 98.9vh;
+    max-width: 650px;
     padding-top:10px;
 }
 
 #container{
-    margin-top: 25px;
-    display:block;
+    display:flex;
+    flex-direction: column;
     text-align: center; 
 }
 
@@ -26,7 +28,7 @@ main {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height:75px;
+    height:90px;
     border-radius: 20%;
 }
 
@@ -49,16 +51,18 @@ main {
     justify-content:space-evenly;
     text-align: center;
     height: 80vh;
+    width: 100%;
     margin: auto;
 }
 
-#container-links>a{
+#container-links > a {
     background-color: #003087;
-    display: flex;
     height: 55px;
-    margin-top: 15px;
-    justify-content: center;
+    width: 100%;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    margin-top: 15px;
     color: aliceblue;
     text-decoration: none;
     border-radius: 10px;
