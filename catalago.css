@@ -73,10 +73,14 @@ main {
     color: aliceblue;
     text-decoration: none;
     border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
 }
 
 #container-links > a:hover {
     background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
     color: #003087;
     transition: 0.5s;
 }
