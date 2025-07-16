@@ -8,93 +8,80 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     margin: auto;
-    height: 98vh;
+    height: 98.9vh;
     max-width: 650px;
-    padding-top:10px;
-}
-#container{
-    display:flex;
-    flex-direction: column;
-    text-align: center; 
-    height: 20%;
 }
 
-#container > img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height:90px;
-    border-radius: 20%;
+ #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#container >img {
+    height:90px ;
 }
 
 #container > h1 {
-    margin-top: 10px;
-    font-family: Raleway, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
     font-size: medium;
+    padding-top: 10px;
 }
 
-#container > p{
-    margin-top: 10px;
-    font-family: Raleway, sans-serif;
-    color: aliceblue; 
+#container > p {
+    padding-top: 10px;
+    color: aliceblue;
 }
-.icon {
+
+#icon{
     display: flex;
     justify-content: center;
-    margin: 5px;
-    height: 5%;
-}
-.icon>img {
-    height:25px;
+    margin-top: 10px;
 }
 
-#container-links{
-    margin-top:5px;
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    grid-gap: 10px;
+#icon > a {
+    display: flex;
+    margin-left: 5px;
+    margin-right:5px ; 
+}
+
+#icon > a > img {
+    height: 25px;
+}
+
+#container-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     height: 50%;
     width: 100%;
+    padding-top: 10px;
 }
 
 #container-links > a {
-    background-color: #003087;
-    height:60px;
-    width:100%;
+    background-color:#003087;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex: 0 0 calc(50% - 30px);
+    height: 60px;
+    margin: 5px;
     color: aliceblue;
     text-decoration: none;
     border-radius: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
 }
 
 #container-links > a:hover {
     background-color: aliceblue;
-    color:#003087 ;
+    color: #003087;
     transition: 0.5s;
 }
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: aliceblue;
-    height: 1%;
-}
 
-footer > a {
-    text-decoration: none; 
-}
-footer > a > h2 {
-    font-size: 18px;
-    text-align: center;
-    color: aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
+
 
 
