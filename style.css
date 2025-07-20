@@ -94,18 +94,5 @@ main {
     color:#003087 ;
     transition: 0.5s;
 }
-footer {
-    color: aliceblue;
-    margin-bottom: 10px; 
-}
-footer > a {
-    text-decoration: none; 
-}
-footer > a > h2 {
-    font-size: 18px;
-    text-align: center;
-    color: aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
 
