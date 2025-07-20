@@ -13,11 +13,11 @@ main {
     max-width: 650px;
 }
 
- #container {
+#container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 45px;
 }
 
 #container >img {
@@ -60,6 +60,7 @@ main {
     height: 50%;
     width: 100%;
     padding-top: 10px;
+    
 }
 
 #container-links > a {
@@ -75,6 +76,7 @@ main {
     border-radius: 8px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
+    box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.363);
 }
 
 #container-links > a:hover {

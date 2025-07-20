@@ -11,9 +11,12 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: auto;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right:auto ;
     height: 98.6vh;
+    padding-left: 10px;
+    padding-right: 10px;
     max-width: 650px;
     padding-top:10px;
 }
@@ -22,13 +25,14 @@ main {
     display:flex;
     flex-direction: column;
     text-align: center; 
+    padding-top: 25px;
 }
 
 #container>img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height:90px;
+    height:95px;
     border-radius: 20%;
 }
 
@@ -66,8 +70,7 @@ main {
     justify-content:start;
     text-align: center;
     height: 50vh;
-    width: 100%;
-    margin: auto;
+    width: 100%; 
 }
 
 #container-links > a {
@@ -83,6 +86,7 @@ main {
     border-radius: 8px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
+    box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.363);
 }
 
 #container-links > a:hover {
