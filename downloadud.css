@@ -71,15 +71,15 @@ main {
 }
 
 .flex > div {
-    flex-wrap: wrap;
     margin: 10px;
-    
 }
 
 .flex > div >  img {
     border-radius: 8px;
 }
+
 .flex > div > a {
+   background-color: #003087;
    height: 60px;
    margin-top: 5px;
    display: flex;
@@ -88,17 +88,13 @@ main {
    text-decoration: none;
    color: aliceblue;
    font-family: Arial, Helvetica, sans-serif;
-   background-color: #003087;
    border-radius: 8px;
 }
 
 .flex > div > a:hover {
    height: 60px;
-
-   display: flex;
    justify-content: center;
    align-items: center;
-   text-decoration: none;
    color: #003087;
    font-family: Arial, Helvetica, sans-serif;
    background-color: aliceblue;
