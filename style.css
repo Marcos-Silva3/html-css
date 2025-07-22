@@ -66,10 +66,10 @@ main {
 
 #container-links{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content:start;
     text-align: center;
-    height: 50vh;
+    height: 30vh;
     width: 100%; 
 }
 
