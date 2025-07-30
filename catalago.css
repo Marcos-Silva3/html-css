@@ -12,9 +12,10 @@ main {
     justify-content: flex-start;
     margin: auto;
     height: 98.6vh;
+    width: 100%;
     padding-left: 10px;
     padding-right: 10px;
-    max-width: 750px;
+    max-width: 780px;
     padding-top:10px;
     max-width: 750px;
 }
@@ -65,8 +66,8 @@ main {
 #container-links > a {
     background-color: #003087;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     flex:1 1 150px;
     height: 60px;
     width: 100%;
