@@ -4,7 +4,9 @@
     padding: 0px;
 }
 body {
-    background: linear-gradient(to right,#48ADD6,#4BB3C0,#4DB8A8);
+    background: url(IMAGENS/fs01n02k0onMLSsoA358.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 main {
     display: flex;
