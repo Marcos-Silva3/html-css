@@ -8,6 +8,8 @@ body {
     background: url(IMAGENS/fs01n02k0onMLSsoA358.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
 }
 
 main {
@@ -30,7 +32,7 @@ main {
     padding-top: 25px;
 }
 
-#container>img {
+#container img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -38,14 +40,14 @@ main {
     border-radius: 20%;
 }
 
-#container,h1 {
+#container h1 {
     margin-top: 10px;
     font-family: Raleway, sans-serif;
     color: aliceblue;
     font-size: medium;
 }
 
-#container,p{
+#container p{
     margin-top: 10px;
     font-family: Raleway, sans-serif;
     color: aliceblue; 
@@ -57,27 +59,25 @@ main {
     margin: 5px;
 }
 
-.icon {
-    text-decoration: none;
+.ico {
+    color: black;
+    font-size: 30px;
 }
 
-.icon > img {
-    height:25px;
-    
-}
 .flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.flex > div {
+.flex  div {
     margin: 10px;
 }
-.flex > div >  img {
+.flex div img {
     border-radius: 8px;
+    box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.363);
 }
-.flex > div > a {
+.flex  div  a {
    background-color: #003087;
    flex-wrap: wrap;
    height: 60px;
@@ -88,10 +88,11 @@ main {
    text-decoration: none;
    color: aliceblue;
    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
+   font-weight: normal;
    border-radius: 5px;
+   box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.363);
 }
-.flex > div > a:hover {
+.flex  div  a:hover {
    height: 60px;
    justify-content: center;
    align-items: center;

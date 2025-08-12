@@ -8,6 +8,8 @@ body {
     background: url(IMAGENS/fs01n02k0onMLSsoA358.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
 }
 main {
     display: flex;
@@ -27,13 +29,14 @@ main {
     text-align: center; 
     padding-top: 25px;
 }
-#container>img {
+#container img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height:95px;
     border-radius: 20%;
 }
+
 #container,h1 {
     margin-top: 10px;
     font-family: Raleway, sans-serif;
@@ -50,8 +53,9 @@ main {
     justify-content: center;
     margin: 5px;
 }
-.icon {
-    text-decoration: none;
+.ico {
+    color: black;
+    font-size:30px;
 }
 .icon>img {
     height:25px;

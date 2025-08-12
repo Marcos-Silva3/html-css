@@ -8,6 +8,8 @@ body {
     background: url(IMAGENS/fs01n02k0onMLSsoA358.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
 }
 
 main {
@@ -31,11 +33,11 @@ main {
     margin: 0px;
 }
 
-#container>img {
+#container img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height:95px;
+    height: 95px;
     border-radius: 20%;
 }
 
@@ -58,13 +60,9 @@ main {
     margin: 5px;
 }
 
-.icon {
-    text-decoration: none;
-}
-
-.icon>img {
-    height:25px;
-    
+.ico {
+    color: black;
+    font-size: 30px;
 }
 
 #container-links{

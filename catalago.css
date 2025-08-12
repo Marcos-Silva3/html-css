@@ -7,6 +7,8 @@ body {
     background: url(IMAGENS/fs01n02k0onMLSsoA358.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
 }
 main {
     display: flex;
@@ -27,7 +29,7 @@ main {
     text-align: center; 
     padding-top: 25px;
 }
-#container > img {
+#container img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -50,13 +52,12 @@ main {
     justify-content: center;
     margin: 5px;
 }
-.icon {
-    text-decoration: none;
+
+.ico {
+    font-size:30px;
+    color: black;
 }
-.icon>img {
-    height:25px;
-    
-}
+  
 #container-links{
     display: flex;
     flex-wrap: wrap;
