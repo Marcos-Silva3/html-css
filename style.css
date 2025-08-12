@@ -36,31 +36,28 @@ main {
     height:95px;
     border-radius: 20%;
 }
-
-#container,h1 {
+#container h1 {
     margin-top: 10px;
     font-family: Raleway, sans-serif;
     color: aliceblue;
     font-size: medium;
 }
-#container,p{
+#container p{
     margin-top: 10px;
     font-family: Raleway, sans-serif;
     color: aliceblue; 
 }
+
 .icon {
     display: flex;
     justify-content: center;
     margin: 5px;
 }
 .ico {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size:30px;
 }
-.icon>img {
-    height:25px;
-    
-}
+
 #container-links{
     display: flex;
     flex-wrap: wrap;
@@ -69,7 +66,7 @@ main {
     height: 30vh;
     width: 100%; 
 }
-#container-links > a {
+#container-links  a {
     background-color: #003087;
     height: 60px;
     width: 100%;
@@ -84,7 +81,7 @@ main {
     font-size: larger;
     box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.363);
 }
-#container-links > a:hover {
+#container-links  a:hover {
     background-color: aliceblue;
     color:#003087 ;
     transition: 0.5s;

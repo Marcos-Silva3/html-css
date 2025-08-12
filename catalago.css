@@ -23,7 +23,7 @@ main {
     padding-top:10px;
     max-width: 750px;
 }
-#container{
+#container {
     display:flex;
     flex-direction: column;
     text-align: center; 
@@ -36,13 +36,13 @@ main {
     height:95px;
     border-radius: 20%;
 }
-#container,h1 {
+#container h1 {
     margin-top: 10px;
     font-family: Raleway, sans-serif;
     color: aliceblue;
     font-size: medium;
 }
-#container,p{
+#container p {
     margin-top: 10px;
     font-family: Raleway, sans-serif;
     color: aliceblue; 
@@ -55,7 +55,7 @@ main {
 
 .ico {
     font-size:30px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
   
 #container-links{
@@ -66,7 +66,7 @@ main {
     align-items: center;
     align-content: flex-start;
 }
-#container-links > a {
+#container-links a {
     background-color: #003087;
     display: flex;
     justify-content: center;
@@ -82,7 +82,7 @@ main {
     font-size: larger;
     box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.363);
 }
-#container-links > a:hover {
+#container-links a:hover {
     background-color: aliceblue;
     color:#003087 ;
     transition: 0.5s;
