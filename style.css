@@ -14,12 +14,13 @@ body {
 }
 main {                  /*elemento bloco*/
     display: flex;
-    flex-direction: column; 
-    margin-left: auto; 
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: auto;
     margin-right:auto ;
     height: 98.6vh;
-    max-width: 750px;
-    padding-top: 50px;
+    max-width: 650px;
+    padding-top: 100px;
 }
 #container{
     display:flex;

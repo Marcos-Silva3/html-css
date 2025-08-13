@@ -19,8 +19,8 @@ main {
     margin-left: auto;
     margin-right:auto ;
     height: 98.6vh;
-    max-width: 750px;
-    padding-top: 50px;
+    max-width: 650px;
+    padding-top: 100px;
 }
 
 #container {
@@ -120,7 +120,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1 1 150px;
+   
     height: 60px;
     width: 100%;
     margin: 10px;
@@ -136,7 +136,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1 1 150px;
     height: 60px;
     width: 100%;
     margin: 10px;
