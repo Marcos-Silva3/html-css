@@ -41,15 +41,16 @@ main {
 #container h1 {
     margin-top: 10px;
     font-family: Raleway, sans-serif;
-    color: aliceblue;
-    font-size: medium;
+    color: rgb(255, 255, 255);
+    font-size: 24pt;
+    border-color: black;
 }
 
 #container p {
     margin-top: 10px;
     font-family: Raleway, sans-serif;
-    color: aliceblue; 
-}
+    color: aliceblue;
+    font-size: 14pt;
 
 .icon {
     display: flex;
