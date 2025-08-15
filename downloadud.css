@@ -40,27 +40,16 @@ main {
 #container h1 {
     margin-top: 10px;
     font-family: Raleway, sans-serif;
-<<<<<<< HEAD
     color: aliceblue;
     font-size: 16pt;
-=======
-    color: rgb(255, 255, 255);
-    font-size: 24pt;
-    border-color: black;
-}
->>>>>>> 82f208cb6fabda3651d6f7d8e931f1b4e664f5aa
 
 }
 #container p{
     margin-top: 10px;
     font-family: Raleway, sans-serif;
     color: aliceblue;
-<<<<<<< HEAD
     font-size: 16pt;
 }
-=======
-    font-size: 14pt;
->>>>>>> 82f208cb6fabda3651d6f7d8e931f1b4e664f5aa
 
 .icon {
     display: flex;
@@ -76,7 +65,8 @@ main {
 .flex {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 20px;
 }
 
 .flex  div {
@@ -111,6 +101,7 @@ main {
    border-radius: 8px;
    transition: 0.5s;
 }
+
 .contatos {
    display: flex;
     align-items: flex-end;
