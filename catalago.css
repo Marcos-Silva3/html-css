@@ -18,9 +18,10 @@ main {
     margin-left: auto;
     margin-right:auto ;
     height: 98.6vh;
-    max-width: 750px;
-    padding-top: 50px;
+    max-width: 650px;
+    padding-top: 70px;
 }
+
 #container {
     display:flex;
     flex-direction: column;
@@ -37,15 +38,25 @@ main {
 #container h1 {
     margin-top: 10px;
     font-family: Raleway, sans-serif;
+<<<<<<< HEAD
     color: aliceblue;
     font-size: 16pt;
 
+=======
+    color: rgb(255, 255, 255);
+    font-size: 24pt;
+    border-color: black;
+>>>>>>> 82f208cb6fabda3651d6f7d8e931f1b4e664f5aa
 }
 #container p{
     margin-top: 10px;
     font-family: Raleway, sans-serif;
     color: aliceblue;
+<<<<<<< HEAD
     font-size: 16pt;
+=======
+    font-size: 14pt;
+>>>>>>> 82f208cb6fabda3651d6f7d8e931f1b4e664f5aa
 }
 .icon {
     display: flex;
