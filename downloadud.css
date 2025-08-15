@@ -15,7 +15,6 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     margin-left: auto;
     margin-right:auto ;
     height: 98.6vh;
@@ -42,13 +41,14 @@ main {
     margin-top: 10px;
     font-family: Raleway, sans-serif;
     color: aliceblue;
-    font-size: medium;
-}
+    font-size: 16pt;
 
-#container p {
+}
+#container p{
     margin-top: 10px;
     font-family: Raleway, sans-serif;
-    color: aliceblue; 
+    color: aliceblue;
+    font-size: 16pt;
 }
 
 .icon {

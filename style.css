@@ -12,10 +12,10 @@ body {
     background-attachment: fixed;
     background-position: top center;
 }
-main {                  /*elemento bloco*/
+main {
     display: flex;
-    flex-direction: column; 
-    margin-left: auto; 
+    flex-direction: column;
+    margin-left: auto;
     margin-right:auto ;
     height: 98.6vh;
     max-width: 750px;
@@ -38,12 +38,14 @@ main {                  /*elemento bloco*/
     margin-top: 10px;
     font-family: Raleway, sans-serif;
     color: aliceblue;
-    font-size: medium;
+    font-size: 16pt;
+
 }
 #container p{
     margin-top: 10px;
     font-family: Raleway, sans-serif;
-    color: aliceblue; 
+    color: aliceblue;
+    font-size: 16pt;
 }
 
 .icon {

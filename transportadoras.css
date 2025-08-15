@@ -39,17 +39,18 @@ main {
     border-radius: 20%;
 }
 
-#container,h1 {
+#container h1 {
     margin-top: 10px;
     font-family: Raleway, sans-serif;
     color: aliceblue;
-    font-size: medium;
-}
+    font-size: 16pt;
 
-#container,p{
+}
+#container p {
     margin-top: 10px;
     font-family: Raleway, sans-serif;
-    color: aliceblue; 
+    color: aliceblue;
+    font-size: 16pt;
 }
 
 .icon {
