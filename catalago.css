@@ -10,7 +10,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: top center;
+    background-position: center center;
 }
 main {
     display: flex;
@@ -68,7 +68,7 @@ main {
     align-content: flex-start;
 }
 #container-links a {
-    background-color: #003087;
+    background-color: #F9F9EF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,7 +76,7 @@ main {
     height: 60px;
     width: 100%;
     margin: 10px;
-    color: aliceblue;
+    color: #0000B7;
     text-decoration: none;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
@@ -84,9 +84,10 @@ main {
     box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.363);
 }
 #container-links a:hover {
-    background-color: aliceblue;
-    color:#003087 ;
+    background-color: #0000B7;
+    color:#ffff ;
     transition: 0.5s;
+    border: 1px solid aliceblue;
 }
 
 

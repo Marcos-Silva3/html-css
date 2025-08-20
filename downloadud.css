@@ -10,7 +10,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: top center;
+    background-position: center center;
 }
 main {
     display: flex;
@@ -44,6 +44,7 @@ main {
     font-size: 16pt;
 
 }
+
 #container p{
     margin-top: 10px;
     font-family: Raleway, sans-serif;
@@ -72,12 +73,14 @@ main {
 .flex  div {
     margin: 10px;
 }
+
 .flex div img {
     border-radius: 8px;
     box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.363);
 }
+
 .flex div a {
-   background-color: #003087;
+   background-color: #F9F9EF;
    flex-wrap: wrap;
    height: 60px;
    margin-top: 5px;
@@ -85,21 +88,22 @@ main {
    justify-content: center;
    align-items: center;
    text-decoration: none;
-   color: aliceblue;
+   color: #0000B7;
    font-family: Arial, Helvetica, sans-serif;
-   font-weight: normal;
    border-radius: 5px;
    box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.363);
 }
+
 .flex div a:hover {
    height: 60px;
    justify-content: center;
    align-items: center;
-   color: #003087;
+   color: #F9F9EF;
    font-family: Arial, Helvetica, sans-serif;
-   background-color: aliceblue;
+   background-color: #0000B7;
    border-radius: 8px;
    transition: 0.5s;
+   border: 1px solid #F9F9EF;
 }
 
 .contatos {
@@ -117,35 +121,39 @@ main {
     font-size: larger;
     align-content: flex-start;
 }
+
 .contatos a {
-    background-color: #003087;
+    background-color: #F9F9EF;
     display: flex;
     align-items: center;
     justify-content: center;
-   
     height: 60px;
     width: 100%;
     margin: 10px;
-    color: aliceblue;
+    color: #0000B7;
     text-decoration: none;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.363);
 }
+
 .contatos a:hover {
-    background-color: aliceblue;
+    background-color: #0000B7;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 60px;
     width: 100%;
     margin: 10px;
-    color: #003087;
+    color: #F9F9EF;
     text-decoration: none;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.363);
     transition: 0.5s;
+    border: 1px solid aliceblue;
 }
+
+

@@ -7,7 +7,7 @@
 
 body {
     background: url(IMAGENS/fs01n02k0onMLSsoA358.png);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -66,24 +66,30 @@ main {
     width: 100%; 
 }
 #container-links  a {
-    background-color: #003087;
+    background-color: #F9F9EF;
     height: 60px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 15px;
-    color: aliceblue;
+    color: #0000B7;
     text-decoration: none;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.363);
 }
-#container-links  a:hover {
-    background-color: aliceblue;
-    color:#003087 ;
+
+
+
+
+#container-links a:hover {
+    background-color: #0000B7;
+    color:#ffff ;
     transition: 0.5s;
+    border: 1px solid aliceblue;
 }
+
 
 
