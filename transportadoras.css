@@ -30,6 +30,10 @@ main {
     padding-top: 25px;
     margin: 0px;
 }
+#container a {
+    width: fit-content;
+    margin: auto;
+}
 
 #container img {
     display: block;

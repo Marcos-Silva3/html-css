@@ -27,6 +27,10 @@ main {
     text-align: center; 
     padding-top: 25px;
 }
+#container a {
+    width: fit-content;
+    margin: auto;
+}
 #container img {
     display: block;
     margin-left: auto;
